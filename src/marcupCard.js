@@ -1,8 +1,6 @@
-export function markupImages(datas) {
-  return datas.map(marcupImage).join('');
-}
 
-function marcupImage({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) {
+
+export function markupImage({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) {
   return `<div class="photo-card">
  <a class="link-card" href="${largeImageURL}">
       
