@@ -29,7 +29,8 @@ button {
 }
 
 .link-card {
-  
+  width: calc((100% - 10px * 4) / 5);
+
   text-decoration: none;
   color: #000000;
 
@@ -42,9 +43,24 @@ button {
 }
 
 .photo-card {
-  width: calc((100% - 10px * 4) / 5); 
+ display: flex;
+ flex-direction: column;
+justify-content: space-between;
 }
 
 img[loading="lazy"] {
+
   width: 100%;
+
 }
+
+.info {
+  display: flex;  
+ justify-content: space-around;
+}
+
+
+span {
+  display: block;
+}
+
