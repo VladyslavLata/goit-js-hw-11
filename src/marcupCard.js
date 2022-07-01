@@ -1,4 +1,3 @@
-
 export function markupImage({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) {
   return `<a class="link-card" href="${largeImageURL}">
       <div class="photo-card">
