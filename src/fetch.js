@@ -15,5 +15,5 @@ export async function fetchQuery(searchQuery, page) {
       per_page: 40,
     },
   };
-  return await axios.get('/api', params).then(respons => respons.data);
+  return await axios.get('/api/', params).then(respons => respons.data);
 }

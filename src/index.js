@@ -1,12 +1,10 @@
 import Notiflix from 'notiflix';
-// import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { markupImage } from './marcupCard';
 import { fetchQuery } from './fetch';
 
 const lightbox = new SimpleLightbox('.gallery a', {});
-// axios.defaults.baseURL = 'https://pixabay.com';
 Notiflix.Notify.init({
   width: '400px',
   fontSize: '24px',
